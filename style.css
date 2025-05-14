@@ -1,0 +1,130 @@
+body {
+        background-color: #f0f8ff;
+        color: #333;
+        font-family: "Tagesschrift", sans-serif; /* Apply Tagesschrift font */
+        font-size: 20px; /* Increase font size */
+        padding: 10px 30px;
+      }
+
+      h1,
+      h2 {
+        color: #007bff;
+        font-size: 2.5rem; /* Increase heading size */
+      }
+
+      .resume-preview {
+        border: 2px solid #007bff;
+        padding: 20px;
+        background: rgba(
+          255,
+          255,
+          255,
+          0.9
+        ); /* Slight transparency for watermark visibility */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .mt-5 {
+        margin-bottom: 30px;
+      }
+
+      .btn-group {
+        margin-top: 20px;
+      }
+
+      #previewPhoto {
+        max-width: 150px;
+        max-height: 150px;
+        display: none;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        border: 2px solid #007bff;
+      }
+
+      .dark-theme {
+        background-color: rgb(27, 27, 27);
+        color: #ecf0f1;
+      }
+
+      .dark-theme h1,
+      .dark-theme h2 {
+        color: #007bff;
+      }
+
+      .dark-theme .resume-preview {
+        border-color: #007bff;
+        background-color: rgb(27, 27, 27);
+      }
+
+      .dark-theme #previewPhoto {
+        border-color: #007bff;
+      }
+
+      .form-label {
+        font-weight: bold;
+        color: #007bff;
+        font-size: 1.2rem; /* Increase label font size */
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+
+      .btn {
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        font-size: 19px; /* Increase button font size */
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+        transform: scale(1.05); /* Slight zoom effect */
+        transition: transform 0.05s ease-in-out; /* Smooth animation */
+      }
+
+      .btn-secondary {
+        background-color: #007bff;
+        border: none;
+      }
+
+      .btn-secondary:hover {
+        background-color: #007bff;
+      }
+
+      .btn-info {
+        color: white;
+      }
+
+      .btn-info:hover {
+        color: white;
+        background-color: #0056b3;
+        transform: scale(1.05); /* Slight zoom effect */
+        transition: transform 0.05s ease-in-out; /* Smooth animation */
+        outline: 2px solid white; /* Add a blue outline */
+        outline-offset: 2px; /* Space between the button and the outline */
+        transition: outline 0.2s ease-in-out; /* Smooth animation */
+      }
+
+      .btn-success:hover {
+        background-color: #0056b3;
+        transform: scale(1.05); /* Slight zoom effect */
+        transition: transform 0.05s ease-in-out; /* Smooth animation */
+        outline: 2px solid white; /* Add a blue outline */
+        outline-offset: 2px; /* Space between the button and the outline */
+        transition: outline 0.2s ease-in-out; /* Smooth animation */
+      }
+
+      .theme-toggle {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1000; /* Ensure it stays above other elements */
+      }
+
+      .theme-toggle button:hover {
+        transform: scale(1.1); /* Slight zoom effect */
+        transition: transform 0.05s ease-in-out; /* Smooth animation */
+      }
